@@ -32,7 +32,7 @@ cd frontend
 npm start
 ```
 
-Now you are able to acess the application on <ins>localhost:3000<ins>
+Now you are able to access the application on <ins>localhost:3000<ins>
 
 ## Backend
 The backend acts as a server using json-server, constantly monitoring incoming HTTP requests and performing database operations. These operations are applied to a database represented by a .json file named db.json, which contains user names and email addresses. Requests are sent from the frontend's UserCrud.jsx, triggered by user interactions with buttons such as 'Users' (to load all users), 'Edit' (to modify name or email), or 'Save' (to add a new user to the database).
