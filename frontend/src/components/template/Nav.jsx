@@ -1,15 +1,16 @@
+import { Link } from 'react-router-dom';
 import './Nav.css';
 import React from 'react';
 
 const Nav = (props) => {
   return <aside className="menu-area">
     <nav className="menu">
-      <a href="#/">
-        <i className="fa fa-home"></i>Início
-      </a>
-      <a href="#/users">
-        <i className="fa fa-users"></i>Usuários
-      </a>
+      <Link to="/">
+        <i className="fa fa-home"></i>Home
+      </Link>
+      <Link to="/users">
+        <i className="fa fa-users"></i>Users
+      </Link>
     </nav>
   </aside>;
 };

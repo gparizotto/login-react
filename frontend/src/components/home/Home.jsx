@@ -5,14 +5,13 @@ const Home = (props) => {
   return (
     <Main
       icon="home"
-      title="Início"
-      subtitle="Segundo projeto do capítulo de react"
+      title="Home"
+      subtitle="Homepage of a CRUD application using React!"
     >
-      <div className="display-4">Bem Vindo!</div>
+      <div className="display-4">Welcome!</div>
       <hr />
       <p className="mb-0">
-        Sistema para exemplificar a construção de um cadastro desenvolvido em
-        React!
+      A system to demonstrate the development of a registration form using React!
       </p>
     </Main>
   );
